@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+}
+nav h2{
+    background-image: linear-gradient( #fc354c, #0abfbc);
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:linear-gradient(rgb(95, 95, 114), rgb(117, 83, 83) ,rgb(79, 70, 95)) ;
+    margin-top: -20px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size:larger;
+  }
+  
+  li a:hover {
+    background-color: rgb(194, 247, 4);
+  }
+  
+
+h1{
+    color: yellow;
+    font-weight: bolder;
+    font-size: 40px;
+}
+h3{
+    color: white;
+    font-size: 30px;
+    margin-left: 250px;
+}
+p{
+    color: white;
+    column-count: 2;
+    margin-left: 250px;
+    padding: 1%;
+
+}
+.aside1{
+    float: left;
+    margin-top: 1%;
+    border-right: 1px solid rgb(245, 241, 241);
+     margin-right: 150px;
+     color: yellow;
+}
+.aside1ul{
+    color: white;
+}
+.aside1 ul li{
+    padding-bottom: 20%;
+    color: white;
+}
+.pr1{
+    float: right;
+    margin-left: 330px;
+}
+.energy{
+    margin-left: 250px;
+}
+.footer{
+    background: linear-gradient( #fc354c, #0abfbc);
+    padding: 3px;
+}
+.footer p{
+    margin-left: 40%;
+}
+
+
+
+
+
+
+

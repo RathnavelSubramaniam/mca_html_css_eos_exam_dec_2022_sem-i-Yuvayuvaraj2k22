@@ -1,0 +1,129 @@
+.header{
+    margin: 0;
+    width: 100%;
+}
+nav h2{
+    background-image: linear-gradient( #fc354c, #0abfbc);
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:linear-gradient(rgb(95, 95, 114), rgb(117, 83, 83) ,rgb(79, 70, 95)) ;
+    margin-top: -20px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size:larger;
+  }
+  
+  li a:hover {
+    background-color: rgb(194, 247, 4);
+  }
+  
+#sp1{
+    color: rgb(15, 15, 15);
+}
+.products{
+    
+     margin-top: 5%;
+     margin-left: 45%;
+     font-size: 40px;
+     color: rgb(92, 116, 116);
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 27%;
+    padding: 10px;
+    height: 400px;
+    cursor: pointer;
+    margin-left: 70px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .btn1{
+    background-color: yellow ;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    padding-left: 20px;
+    margin-left: 35%;
+    margin-top: 8px;
+    font-size: 90%;
+    width: 30%;
+
+}
+.btn2{
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    border: 1px solid white;
+    margin-left: 50px;
+    margin-top: 8px;
+    width: 80%;
+}
+.more{
+    text-decoration: none;
+    margin-left: 3%;
+}
+aside{
+    float: right;
+    top: 0;
+    border: 1px solid gray;
+    padding: 5px;
+    margin-right: 1.5%;
+    
+    }
+    aside a{
+    text-decoration: none;
+    }
+    aside a:hover{
+    color: aqua;
+    }
+.shop{
+    margin-left: 40%;
+    font-size: 45px;
+}
+.shop2{
+    margin-left: 34%;
+    font-size: 20px;
+}
+.goals{
+    margin-top: 20%;
+    
+}
+.footer{
+    background: linear-gradient( #fc354c, #0abfbc);
+    padding: 5px;
+}
+.footer p{
+    margin-left: 40%;
+}
+

@@ -1,0 +1,236 @@
+nav h2{
+    background-image: linear-gradient( #fc354c, #0abfbc);
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:linear-gradient(rgb(95, 95, 114), rgb(117, 83, 83) ,rgb(79, 70, 95)) ;
+    margin-top: -20px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size:larger;
+  }
+  
+  li a:hover {
+    background-color: rgb(194, 247, 4);
+  }
+  
+#sp1{
+    color: rgb(15, 15, 15);
+}
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #06cdf0;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.divv1{
+    height: 50%;
+    width: 53%;
+    margin-top: 10%;
+    border: 1px solid darkgreen;
+}
+.divv1 h6{
+    font-size: 20px;
+    margin-top: -5px;
+}
+.divv1 h4{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.btn1{
+    background-color: yellow ;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    padding-left: 20px;
+    margin-left: 30%;
+    margin-top: 8px;
+    font-size: 90%;
+    width: 25%;
+
+}
+.btn2{
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    border: 1px solid white;
+    margin-left: 50px;
+    margin-top: 8px;
+    width: 25%;
+}
+.divv2{
+    height: 95%;
+    width: 53%;
+    margin-top: 10%;
+    border: 1px solid darkgreen;
+}
+.iso2{
+    margin-left: 30%;
+    margin-top: -25%;
+}
+.unflaver2{
+  margin-left: 30%;
+  color:cadetblue;
+}
+.rupees2{
+  margin-left: 30%;
+  font-size: 200%;
+
+}
+.ppp{
+    column-count: 2;
+    width: 50%;
+    text-align: justify;
+}
+.btn12{
+  background-color: yellow ;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bolder;
+  padding-left: 20px;
+  margin-left: 30%;
+  margin-top: 8px;
+  font-size: 90%;
+  width: 25%;
+
+}
+.btn22{
+  background-color: black;
+  color:white;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bolder;
+  border: 1px solid white;
+  margin-left: 50px;
+  margin-top: 8px;
+  width: 25%;
+}
+.divv3{
+    height: 95%;
+    width: 53%;
+    margin-top: 10%;
+    border: 1px solid darkgreen;
+}
+.divv4{
+    height: 95%;
+    width: 53%;
+    margin-top: 10%;
+    border: 1px solid darkgreen;
+}
+.footer{
+    background: linear-gradient( #fc354c, #0abfbc);
+    padding: 5px;
+}
+.footer p{
+    margin-left: 40%;
+}
+
+
